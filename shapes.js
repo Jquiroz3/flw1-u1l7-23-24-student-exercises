@@ -7,9 +7,11 @@ circle.addEventListener("click", function() {
 
     // 1. Update the circle using the style property.
     // - Set the background color to purple.
+  circle.style.backgroundColor = "purple";  
     // - Set the width to 150px.
+  circle.style.width = "150px";
     // - Set the height to 150px.
-   
+   circle.style.height = "150px";
 
 });
 
@@ -17,9 +19,11 @@ square.addEventListener("click", function() {
 
     // 2. Update the square using the style property.
     // - Set the background color to yellow.
+   square.style.backgroundColor = "yellow";  
     // - Set the width to 150px.
+   square.style.width = "150px";  
     // - Set the height to 150px.
-
+square.style.height = "150px";  
 
 
 });
@@ -28,10 +32,12 @@ rectangle.addEventListener("click", function() {
 
     // 3. Update the rectangle using the style property.
     // - Set the background color to orange.
+  rectangle.style.backgroundColor = "orange";  
     // - Set the width to 250px.
+   rectangle.style.width = "250px";  
     // - Set the height to 150px.
-    
-
+    rectangle.style.height = "150px";  
+  rectangle.style.display = "none"; 
 
 });
 

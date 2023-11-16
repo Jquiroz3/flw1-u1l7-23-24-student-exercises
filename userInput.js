@@ -10,12 +10,14 @@ saveButton.addEventListener('click', function() {
 
 
     // 2. Declare a variable called userInput.
+  let userInputElement = document.querySelector('.user-input');
+  let userInputValue= userInputElement.value;
     // - Select the class of the input field using querySelector.
     // - Add the value method.
 
 
     // 2. Set the innerHTML of the display div to the user input.
 
-
+displayMessage.innerHTML = userInputValue;
 
 });
